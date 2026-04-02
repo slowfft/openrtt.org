@@ -1,0 +1,95 @@
+:root {
+  --width: 768px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: Garamond;
+}
+
+.wrap {
+  max-width: var(--width);
+  margin: 16px auto;
+  padding: 0 16px;
+}
+
+nav .wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: baseline;
+}
+@media screen and (max-width: 768px) {
+  nav .wrap {
+    flex-wrap: wrap;
+  }
+}
+nav .logo {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: inherit;
+}
+nav .logo .logo-text {
+  font-weight: bold;
+  font-size: 24px;
+}
+nav .logo .tagline {
+  color: gray;
+}
+
+footer {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 8px;
+}
+
+h2 {
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 2px;
+}
+h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #bbbbbb;
+  text-underline-offset: 4px;
+  margin-top: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+dt,
+dd {
+  word-break: break-word;
+}

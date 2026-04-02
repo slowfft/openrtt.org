@@ -1,0 +1,5 @@
+baseURL = 'https://openrtt.org/'
+locale = 'en-us'
+title = 'OpenRTT'
+disableKinds = ['taxonomy', 'term']
+disableHugoGeneratorInject = true
