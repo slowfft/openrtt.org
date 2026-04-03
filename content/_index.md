@@ -20,10 +20,6 @@ This website aims to provide a comprehensive overview of the history of real-tim
 [Designing a real-time text system](/design)
 : Notes and suggestions on how to design a real-time text system.
 
-<!-- ## Contributing
-
-If you have anything to add, please make a pull request on [github.com/slowfft/real-time-text](https://github.com/slowfft/real-time-text). Thank you. -->
-
 ## Other work
 
 [realtimetext.org](/realtimetext.org)

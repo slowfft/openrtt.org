@@ -8,7 +8,7 @@ Real-time text systems date back to the early 1970s at the latest, possibly havi
 
 _WA: Archived via the Internet Archive Wayback Machine_
 
-## 1.1. Messaging software
+## Messaging software
 
 ### Early anecdotes
 
@@ -51,15 +51,20 @@ _WA: Archived via the Internet Archive Wayback Machine_
 
 - 1996–2024
 - [Wikipedia - ICQ](https://en.wikipedia.org/wiki/ICQ)
-- RTT available during the 1990s (when exactly?)
+- ICQ had a _Chat_ mode distinct from regular messaging: a split-screen window where each participant's text appeared as real-time text.
+- Also showed whether the other participant had switched focus to another window.
+- Uncertain exactly when real-time text feature was introduced and removed.
+- Images: [icq-1](/images/icq/icq-1.png), [icq-2](/images/icq/icq-2.png), [icq-3](/images/icq/icq-3.jpg)
 
 ### AIM (AOL Instant Messenger)
 
-- 1997–2017; RTT introduced in 2008.
+- 1997–2017
 - [Wikipedia - AIM (software)](<https://en.wikipedia.org/wiki/AIM_(software)>)
-- Articles
-  - [AOL Help - What is Real-Time IM?](https://www.aniesoft.com/realtime-im.html)
-  - 2008-06-20 - [TRACE RERC - AOL Incorporates Real-Time Text in New Release of Instant Messaging](https://trace.umd.edu/news/aol-incorporates-real-time-text-in-new-release-of-instant-messaging/)
+- Real-time text introduced in 2008.
+- [TRACE RERC - AOL Incorporates Real-Time Text](https://trace.umd.edu/news/aol-incorporates-real-time-text-in-new-release-of-instant-messaging/) [[WA](https://web.archive.org/web/20260402190218/https://trace.umd.edu/news/aol-incorporates-real-time-text-in-new-release-of-instant-messaging/)]
+- [AOL Help - What is Real-Time IM?](https://www.aniesoft.com/realtime-im.html) [[WA](https://web.archive.org/web/20260402190218/https://aniesoft.com/realtime-im.html)]
+- [AOL Instant Messaging with Real-Time IM Tutorial](https://tap.gallaudet.edu/Text/AOL/index.html) [[WA](https://web.archive.org/web/20250328151315/https://tap.gallaudet.edu/Text/AOL/index.html)]
+- Images: [aol-1](/images/aol/aol-1.gif), [aol-2](/images/aol/aol-2.gif), [aol-3](/images/aol/aol-3.jpg)
 
 ### Manyland
 
@@ -78,6 +83,15 @@ _WA: Archived via the Internet Archive Wayback Machine_
   - 2014-11-19 - [YouTube - Beam: The App That Sends Even What You Delete](https://www.youtube.com/watch?v=AfeFiRtOWVc)
   - 2014-11-25 - [Medium - Beam Messenger: Setting The Record Straight](https://medium.com/@Beam_Messenger/beam-messenger-setting-the-record-straight-4427b3b1b6b0)
   - 2015-05-29 - [MIT Technology Review - Real-Time Texting App Lets You Interrupt Without Saying a Word](https://www.technologyreview.com/2015/05/29/11279/real-time-texting-app-lets-you-interrupt-without-saying-a-word/)
+
+### iOS and Android RTT calling
+
+- Apple added RTT to the Phone app in iOS 11 (2017); Google added it to Android 9 (2018).
+- Uses RFC 4103 over IMS. Intended as an accessibility feature to replace legacy TTY/TDD.
+- T-Mobile was among the first US carriers to support RTT calls.
+- The FCC mandated wireless carriers in the US to support RTT, phasing out TTY requirements.
+- [Apple - Make RTT and TTY calls from iPhone](https://support.apple.com/en-gb/guide/iphone/iph3e2e47fe/ios)
+- [Google - Use real-time text (RTT) on phone calls](https://support.google.com/accessibility/android/answer/9042284)
 
 ### MlesTalk
 
@@ -108,7 +122,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [jot.chat](https://jot.chat)
 - _Note: affiliated with OpenRTT._
 
-## 1.2. Other software
+## Other software
 
 - [Wikipedia - Collaborative real-time editor](https://en.wikipedia.org/wiki/Collaborative_real-time_editor)
 
@@ -116,6 +130,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 
 - 2009–2012
 - [Wikipedia - Google Wave](https://en.wikipedia.org/wiki/Google_Wave)
+- Example (starts at 0:50): [A Pissed Off Tutorial For Google Wave](https://www.youtube.com/watch?v=4Z4RKRLaSug)
 
 ### Google Docs
 
