@@ -14,6 +14,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 
 - The 1960s possibly saw some implementations:
   - [elists.isoc.org/pipermail/internet-history/2002-December/000173.html](https://elists.isoc.org/pipermail/internet-history/2002-December/000173.html) [[WA](https://web.archive.org/web/20250115041223/https://elists.isoc.org/pipermail/internet-history/2002-December/000173.html)]
+  - [elists.isoc.org/pipermail/internet-history/2002-December/000191.html](https://elists.isoc.org/pipermail/internet-history/2002-December/000191.html) [[WA](https://web.archive.org/web/20250115041219/https://elists.isoc.org/pipermail/internet-history/2002-December/000191.html)]
   - [dotatat.at/othersite/isoc-internet-history/2009/nov/msg00083.html [WA]](https://web.archive.org/web/20260401135430/https://www.dotatat.at/othersite/isoc-internet-history/2009/nov/msg00083.html)
 - 1972: Real-time text on Tenex by Jim Calvin
   - [dotatat.at/othersite/isoc-internet-history/2009/nov/msg00082.html [WA]](https://web.archive.org/web/20260401135540/https://www.dotatat.at/othersite/isoc-internet-history/2009/nov/msg00082.html)
