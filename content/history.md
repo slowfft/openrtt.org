@@ -95,7 +95,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 
 ### MlesTalk
 
-- 2019–?
+- 2019–
 - [mles.io/app.html](https://mles.io/app.html)
 - [lemmy.world/c/mles](https://lemmy.world/c/mles)
 - [github.com/jq-rs/mlestalk-ui](https://github.com/jq-rs/mlestalk-ui)
