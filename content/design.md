@@ -69,7 +69,7 @@ The sender transmits only what changed since the last update: insertions, deleti
 - Not self-repairing: if a diff is lost or applied incorrectly, the receiver's state diverges from the sender's. A recovery mechanism is needed, e.g. periodically retransmitting the full message state so the receiver can resynchronize. XEP-0301 does this with a "reset" event (recommended every 10 seconds) that retransmits the complete message.
 - XEP-0301 defines three action elements: text insertion (`<t/>`), text erasure (`<e/>`), and wait intervals (`<w/>`, to preserve typing rhythm). Actions are batched and transmitted at a recommended interval of 700 milliseconds.
 
-## 4. Routing
+## 4. Message association
 
 Every update needs enough information to identify the sender and the message it belongs to. Supplementary data – attachments, emoji, reply references, tagged users – can be sent once at the point it is added and omitted from subsequent updates. Receiving clients keep this data in memory alongside the in-progress message. If the update carrying it is lost, the receiver will miss it, but including it again in the finalization packet provides a fallback.
 
