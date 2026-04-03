@@ -51,6 +51,7 @@ nav .logo .tagline {
 }
 
 footer {
+  padding: 16px 0 0;
   color: gray;
 }
 
@@ -66,6 +67,10 @@ dt {
 }
 dd {
   margin-bottom: 8px;
+}
+
+li {
+  margin: 2px 0;
 }
 
 h2 {
