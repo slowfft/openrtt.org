@@ -66,6 +66,13 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [AOL Instant Messaging with Real-Time IM Tutorial](https://tap.gallaudet.edu/Text/AOL/index.html) [[WA](https://web.archive.org/web/20250328151315/https://tap.gallaudet.edu/Text/AOL/index.html)]
 - Images: [aol-1](/images/aol/aol-1.gif), [aol-2](/images/aol/aol-2.gif), [aol-3](/images/aol/aol-3.jpg)
 
+### RealJabber (XEP-0301)
+
+- 2013–
+- [realjabber.org](https://realjabber.org/) [[WA](https://web.archive.org/web/20200209133335/http://www.realjabber.org/)]
+- Demo implementation of XEP-0301.
+- [Demo (GIF)](/images/xep-0301/real_time_text_demo.gif)
+
 ### Manyland
 
 - Created 2013; shut down February 29 2024.
