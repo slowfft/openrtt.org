@@ -48,6 +48,13 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [Wikipedia - OpenVMS](https://en.wikipedia.org/wiki/OpenVMS)
 - [marc.vos.net/books/vms/help/phone](http://marc.vos.net/books/vms/help/phone/) [[WA](https://web.archive.org/web/20161002152821/http://marc.vos.net/books/vms/help/phone/)]
 
+### Windows Chat
+
+- Included in Windows versions from 1992 onward, up to but not including Vista.
+- [Wikipedia - Windows Chat](https://en.wikipedia.org/wiki/Windows_Chat)
+- [How to find, launch and use WinChat messenger](https://www.cezeo.com/tips-and-tricks/winchat-messenger/) [[WA](https://web.archive.org/web/20250914215839/https://www.cezeo.com/tips-and-tricks/winchat-messenger/)]
+- [Using Windows Chat in Windows XP](https://ftp.zx.net.nz/pub/mirror/ftp.microsoft.com/MISC/KB/en-us/308/232.HTM) [[WA](https://web.archive.org/web/20260405120808/https://ftp.zx.net.nz/pub/mirror/ftp.microsoft.com/MISC/KB/en-us/308/232.HTM)]
+
 ### ICQ ("I Seek You")
 
 - 1996–2024
