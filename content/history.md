@@ -126,6 +126,11 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [tiktok.com/@usehonk](https://www.tiktok.com/@usehonk)
 - [benji.org/honkish](https://benji.org/honkish)
 
+### Bop Me
+
+- Launched in 2021, now defunct.
+- https://www.producthunt.com/products/bop-me
+
 ### Jiffcy
 
 - 2021–
