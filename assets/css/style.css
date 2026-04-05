@@ -16,7 +16,7 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  font-family: Garamond;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .wrap {
