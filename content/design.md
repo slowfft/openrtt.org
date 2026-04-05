@@ -6,13 +6,25 @@ title: Designing a real-time text system
 
 This page covers the design of real-time text (RTT) systems – systems where a sender's keystrokes are transmitted to recipients as they are typed. RTT is distinct from collaborative document editing (which uses techniques like operational transformation and CRDTs to reconcile concurrent edits): in RTT, only one party authors a message at a time, so no conflict resolution is needed.
 
+_WA: Archived via the Internet Archive Wayback Machine_
+
 ## 1. Prior work
 
-- 1998: [ITU-T T.140: Protocol for multimedia application text conversation](https://www.itu.int/rec/T-REC-T.140/en)
-  [[Mirror](/docs/T-REC-T.140-199802-I!!PDF-E.pdf)] [[Mirror of addendum](/docs/T-REC-T.140-200002-I!Add1!PDF-E.pdf)]
-- 2005: [IETF RFC 4103: RTP Payload for Text Conversation](https://www.rfc-editor.org/rfc/rfc4103.txt) [[Mirror](/docs/rfc4103.txt)]
-- 2008: [IETF RFC 5194: Framework for Real-Time Text over IP Using the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5194.txt) [[Mirror](/docs/rfc5194.txt)]
-- 2013: [XEP-0301: In-Band Real Time Text](https://xmpp.org/extensions/xep-0301.html) [[HTML mirror](/docs/xep-0301.mhtml)] [[PDF mirror](/docs/xep-0301.pdf)]
+1998: ITU-T T.140
+: [Protocol for multimedia application text conversation](https://www.itu.int/rec/T-REC-T.140/en)  
+ Mirrors: [[PDF](/docs/T-REC-T.140-199802-I!!PDF-E.pdf)] [[PDF of addendum](/docs/T-REC-T.140-200002-I!Add1!PDF-E.pdf)]
+
+2005: IETF RFC 4103
+: [RTP Payload for Text Conversation](https://www.rfc-editor.org/rfc/rfc4103.txt)  
+ Mirrors: [[TXT](/docs/rfc4103.txt)]
+
+2008: IETF RFC 5194
+: [Framework for Real-Time Text over IP Using the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5194.txt)  
+ Mirrors: [[TXT](/docs/rfc5194.txt)]
+
+2013: XEP-0301
+: [In-Band Real Time Text](https://xmpp.org/extensions/xep-0301.html)  
+ Mirrors: [[WA](https://web.archive.org/web/20260402190312/https://xmpp.org/extensions/xep-0301.html)] [[PDF](/docs/xep-0301.pdf)] [[MHTML](/docs/xep-0301.mhtml)]
 
 ## 2. Considerations
 

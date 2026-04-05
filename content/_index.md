@@ -6,7 +6,7 @@ title: "OpenRTT"
 
 ## Introduction
 
-_Real-time text_ (RTT) refers to text that is transmitted instantly as it is typed; in other words, as a continuous stream of letters or words rather than as full strings. It also known as _live typing_, _live text_, _fast text_, _text call_ or _streamed text_.
+_Real-time text_ (RTT) refers to text that is transmitted instantly as it is typed; in other words, as a continuous stream of letters or words rather than as full strings. It also known as _live typing, live text, fast text, text call_ or _streamed text_.
 
 Real-time text is used in live captioning, collaborative editors and (less commonly) chat software.
 

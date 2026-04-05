@@ -32,7 +32,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
   - [github.com/mohdyahyamahmodi/talkomatic-classic](https://github.com/mohdyahyamahmodi/talkomatic-classic)
   - [classic.talkomatic.co/about.html](https://classic.talkomatic.co/about.html) [[WA](https://web.archive.org/web/20260317023804/https://classic.talkomatic.co/about.html)]
 
-### unix `talk`, `ntalk`, `ytalk`, `utalk`
+### talk, ntalk, ytalk and utalk on Unix
 
 - Created sometime between 1981 and 1983 for BSD.
 - Early versions would interleave streamed text from participants on the same line; this was addressed later with each participant getting a separate section of the screen instead.
@@ -42,7 +42,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [utalk.ourproject.org](https://utalk.ourproject.org) [[WA](https://web.archive.org/web/20220729001339/https://utalk.ourproject.org/)]
 - [Where is the Talk protocol documented? [WA]](https://web.archive.org/web/20070312164334/http://members.aol.com/chinyu/chitchat/faq-04.html)
 
-### OpenVMS `phone`
+### Phone on OpenVMS
 
 - Late 1970s, early 1980s?
 - [Wikipedia - OpenVMS](https://en.wikipedia.org/wiki/OpenVMS)
