@@ -109,3 +109,18 @@ dt,
 dd {
   word-break: break-word;
 }
+
+h1 {
+  letter-spacing: 0.005em;
+}
+h2 {
+  letter-spacing: 0.01em;
+}
+h3,
+h4 {
+  letter-spacing: 0.015em;
+}
+h5,
+h6 {
+  letter-spacing: 0.02em;
+}
