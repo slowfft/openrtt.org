@@ -54,6 +54,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 - [Wikipedia - Windows Chat](https://en.wikipedia.org/wiki/Windows_Chat)
 - [How to find, launch and use WinChat messenger](https://www.cezeo.com/tips-and-tricks/winchat-messenger/) [[WA](https://web.archive.org/web/20250914215839/https://www.cezeo.com/tips-and-tricks/winchat-messenger/)]
 - [Using Windows Chat in Windows XP](https://ftp.zx.net.nz/pub/mirror/ftp.microsoft.com/MISC/KB/en-us/308/232.HTM) [[WA](https://web.archive.org/web/20260405120808/https://ftp.zx.net.nz/pub/mirror/ftp.microsoft.com/MISC/KB/en-us/308/232.HTM)]
+- Images: [winchat-1](/images/winchat/winchat-1.png)
 
 ### ICQ ("I Seek You")
 
