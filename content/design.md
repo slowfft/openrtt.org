@@ -41,7 +41,7 @@ Correctness and recoverability
 : Should the receiver's copy of the message always match the sender's exactly, or is occasional divergence acceptable? What happens when the connection drops mid-message – is the partial message preserved or lost? If the receiver falls out of sync (due to packet loss or a reconnection), how is the correct state restored? The answers depend on the transmission approach (see section 3).
 
 Update frequency
-: How often are updates transmitted? More frequent updates (e.g., on every keystroke) feel more responsive but consume more bandwidth. Less frequent updates (e.g., batched at fixed intervals) are more efficient but introduce perceptible delay. XEP-0301 recommends 700-millisecond intervals as a balance between responsiveness and overhead.
+: How often are updates transmitted? More frequent updates (e.g., on every keystroke) feel more responsive but consume more bandwidth. Less frequent updates (e.g., batched at fixed intervals) are more efficient but introduce perceptible delay.
 
 Bandwidth and scalability
 : Bandwidth cost depends on the transmission approach (see section 3), update frequency, and message length. An approach that transmits the entire message on every change (3.2) is cheap for short messages but expensive for long ones. A diff-based approach (3.3) scales better with message length but adds complexity. Consider the expected message sizes, number of concurrent conversations, and available bandwidth.
