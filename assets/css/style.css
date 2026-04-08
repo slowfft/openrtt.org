@@ -1,3 +1,7 @@
+/* ----------------------------------------------------------------------------
+    Layout
+*/
+
 :root {
   --width: 640px;
 }
@@ -16,7 +20,6 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .wrap {
@@ -24,6 +27,10 @@ body {
   margin: 16px auto;
   padding: 0 16px;
 }
+
+/* ----------------------------------------------------------------------------
+    Nav
+*/
 
 nav .wrap {
   width: 100%;
@@ -50,9 +57,35 @@ nav .logo .tagline {
   color: gray;
 }
 
+/* ----------------------------------------------------------------------------
+    Footer
+*/
+
 footer {
   padding: 16px 0 0;
   color: gray;
+}
+
+/* ----------------------------------------------------------------------------
+    Typography
+*/
+
+body {
+  font-family: "Baskerville", "Times New Roman", Times, serif;
+  line-height: 1.15;
+}
+
+em {
+  letter-spacing: 0.04em;
+}
+
+strong {
+  font-weight: 600;
+}
+
+nav .links {
+  font-family: Tahoma, sans-serif;
+  font-size: 14.4px;
 }
 
 a {
@@ -64,7 +97,7 @@ a:hover {
 }
 
 dt {
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 2px;
 }
 dd {
@@ -84,17 +117,67 @@ li {
   margin: 2px 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+}
 h2 {
-  border-bottom: 1px solid #bbbbbb;
+  font-size: 20px;
+  margin-top: 28px;
   padding-bottom: 2px;
+  border-bottom: 1px solid #777777;
 }
 h3 {
+  font-size: 16px;
+  margin-top: 24px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #cccccc;
+}
+h4 {
+  font-size: 14px;
+  margin-top: 24px;
+  font-style: italic;
   text-decoration: underline;
   text-decoration-thickness: 1px;
-  text-decoration-color: #bbbbbb;
+  text-decoration-color: #dddddd;
   text-underline-offset: 4px;
-  margin-top: 24px;
 }
+h5 {
+  font-size: 13px;
+  margin-top: 24px;
+  font-style: italic;
+  color: #444444;
+}
+
+h1 {
+  letter-spacing: calc(2 * 0.005em);
+}
+h2 {
+  letter-spacing: calc(2 * 0.01em);
+}
+h3 {
+  letter-spacing: calc(2 * 0.015em);
+}
+h4 {
+  letter-spacing: calc(2.5 * 0.015em);
+}
+h5,
+h6 {
+  letter-spacing: calc(2.5 * 0.02em);
+}
+
+/* ----------------------------------------------------------------------------
+    Fixes
+*/
 
 h1,
 h2,
@@ -110,17 +193,9 @@ dd {
   word-break: break-word;
 }
 
-h1 {
-  letter-spacing: 0.005em;
+#TableOfContents ul {
+  list-style-type: none;
 }
-h2 {
-  letter-spacing: 0.01em;
-}
-h3,
-h4 {
-  letter-spacing: 0.015em;
-}
-h5,
-h6 {
-  letter-spacing: 0.02em;
+#TableOfContents > ul > li:first-child {
+  display: none;
 }

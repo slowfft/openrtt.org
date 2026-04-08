@@ -6,7 +6,11 @@ title: Designing a real-time text system
 
 This page covers the design of real-time text (RTT) systems – systems where a sender's keystrokes are transmitted to recipients as they are typed. RTT is distinct from collaborative document editing (which uses techniques like operational transformation and CRDTs to reconcile concurrent edits): in RTT, only one party authors a message at a time, so no conflict resolution is needed.
 
-_WA: Archived via the Internet Archive Wayback Machine_
+_WM: Archived via the Internet Archive Wayback Machine_
+
+## Table of Contents
+
+{{% toc %}}
 
 ## 1. Prior work
 
@@ -24,7 +28,7 @@ _WA: Archived via the Internet Archive Wayback Machine_
 
 2013: XEP-0301
 : [In-Band Real Time Text](https://xmpp.org/extensions/xep-0301.html)  
- Mirrors: [[WA](https://web.archive.org/web/20260402190312/https://xmpp.org/extensions/xep-0301.html)] [[PDF](/docs/xep-0301.pdf)] [[MHTML](/docs/xep-0301.mhtml)]
+ Mirrors: [[WM](https://web.archive.org/web/20260402190312/https://xmpp.org/extensions/xep-0301.html)] [[PDF](/docs/xep-0301.pdf)] [[MHTML](/docs/xep-0301.mhtml)]
 
 ## 2. Considerations
 
