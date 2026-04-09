@@ -14,8 +14,11 @@ This website aims to provide a comprehensive overview of the history of real-tim
 
 ## Index
 
-[Real-time text systems, then and now](/history)
+[A survey of real-time text systems](/software)
 : An attempt at an index of past and present real-time text systems.
+
+[Standards and protocols for real-time text](/standards)
+: An overview of existing standards.
 
 [Designing a real-time text system](/design)
 : Notes and suggestions on how to design a real-time text system.
@@ -26,4 +29,4 @@ This website aims to provide a comprehensive overview of the history of real-tim
 : realtimetext.org was a highly informative website about real-time text with a focus on its use in accessibility and emergency systems. The page was scraped from a saved version on Web Archive from 2020-01-20 ([link](https://web.archive.org/web/20200816131628/http://realtimetext.org/)).
 
 [_Real-time text_ on Wikipedia](https://en.wikipedia.org/wiki/Real-time_text)
-: A brief overview. Far less comprehensive than realtimetext.org.
+: A brief overview. Less comprehensive than realtimetext.org.

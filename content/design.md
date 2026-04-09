@@ -14,28 +14,14 @@ _WM: Archived via the Internet Archive Wayback Machine_
 
 ## 1. Prior work
 
-1998: ITU-T T.140
-: [Protocol for multimedia application text conversation](https://www.itu.int/rec/T-REC-T.140/en)  
- Mirrors: [[PDF](/docs/T-REC-T.140-199802-I!!PDF-E.pdf)] [[PDF of addendum](/docs/T-REC-T.140-200002-I!Add1!PDF-E.pdf)]
-
-2005: IETF RFC 4103
-: [RTP Payload for Text Conversation](https://www.rfc-editor.org/rfc/rfc4103.txt)  
- Mirrors: [[TXT](/docs/rfc4103.txt)]
-
-2008: IETF RFC 5194
-: [Framework for Real-Time Text over IP Using the Session Initiation Protocol (SIP)](https://www.rfc-editor.org/rfc/rfc5194.txt)  
- Mirrors: [[TXT](/docs/rfc5194.txt)]
-
-2013: XEP-0301
-: [In-Band Real Time Text](https://xmpp.org/extensions/xep-0301.html)  
- Mirrors: [[WM](https://web.archive.org/web/20260402190312/https://xmpp.org/extensions/xep-0301.html)] [[PDF](/docs/xep-0301.pdf)] [[MHTML](/docs/xep-0301.mhtml)]
+Refer to [_A survey of real-time text systems_](/software) and [_Standards and protocols for real-time text_](/standards).
 
 ## 2. Considerations
 
 When designing a real-time text system, consider the following factors:
 
 Transport protocol
-: What does the real-time text protocol run over? TCP guarantees ordering and delivery at the cost of latency (retransmissions block subsequent data). UDP is "fire and forget." Lower latency, but the protocol itself must handle packet loss and ordering. WebSocket is a common choice for browser-based systems, providing a persistent full-duplex channel over TCP.
+: What does the real-time text protocol run over? TCP guarantees ordering and delivery at the cost of latency (retransmissions block subsequent data). UDP is "fire and forget" meaning lower latency, but the protocol itself must handle packet loss and ordering. WebSocket is a common choice for browser-based systems, providing a persistent full-duplex channel over TCP.
 
 Correctness and recoverability
 : Should the receiver's copy of the message always match the sender's exactly, or is occasional divergence acceptable? What happens when the connection drops mid-message – is the partial message preserved or lost? If the receiver falls out of sync (due to packet loss or a reconnection), how is the correct state restored? The answers depend on the transmission approach (see section 3).
@@ -47,7 +33,7 @@ Bandwidth and scalability
 : Bandwidth cost depends on the transmission approach (see section 3), update frequency, and message length. An approach that transmits the entire message on every change (3.2) is cheap for short messages but expensive for long ones. A diff-based approach (3.3) scales better with message length but adds complexity. Consider the expected message sizes, number of concurrent conversations, and available bandwidth.
 
 Protocol flexibility
-: Can the protocol be extended to accommodate features like rich text, emojis, media attachments, replies, user tagging, and so on? A protocol that transmits opaque text blobs (3.2) may be easier to extend than one that transmits granular character-level operations (3.1).
+: Can the protocol be extended to accommodate features like rich text, emojis, media attachments, replies, user tagging, and so on?
 
 Platform
 : Browser-based systems are limited to WebSocket or HTTP-based transports and have weaker cryptographic guarantees. Desktop clients have more flexibility in transport and encryption. Mobile clients must account for intermittent connectivity and background process restrictions.
@@ -131,7 +117,7 @@ One approach to extracting a stable typing signature is to compute the frequency
 
 Several techniques can mitigate timing and traffic analysis:
 
-**Batching at fixed intervals.** Rather than transmitting on each keystroke, updates are buffered and sent at a constant interval, destroying the inter-keystroke timing signal. XEP-0301 recommends 700ms intervals for interoperability; OpenSSH's `ObscureKeystrokeTiming` option uses 20ms intervals. The trade-off is added latency: the receiver sees updates in steps rather than character-by-character.
+**Batching at fixed intervals.** Rather than transmitting on each keystroke, updates are buffered and sent at a constant interval, destroying the inter-keystroke timing signal. XEP-0301 recommends 700 ms intervals for interoperability; OpenSSH's `ObscureKeystrokeTiming` option uses 20 ms intervals. The trade-off is added latency: the receiver sees updates in steps rather than character-by-character.
 
 **Timing metadata in the encrypted payload.** If updates are batched, the original keystroke timestamps can be included inside the encrypted payload. The receiver then plays back the text with natural rhythm while the eavesdropper sees only uniform packet spacing. This preserves the real-time feel of RTT without leaking timing information on the wire.
 
