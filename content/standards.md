@@ -4,7 +4,7 @@ title: Standards and protocols for real-time text
 
 # Standards and protocols for real-time text
 
-Many implementations of real-time text systems exist only as proprietary or undocumented code. For a survey of real-time text systems, please refer to [_A survey of real-time text systems_](/software).
+Many implementations of real-time text (RTT) systems exist only as proprietary or undocumented code. For a survey of real-time text systems, please refer to [_A survey of real-time text systems_](/software).
 
 _WM: Archived via the Internet Archive Wayback Machine_
 
@@ -37,7 +37,13 @@ RFC 5194 _(Framework for Real-Time Text over IP Using the Session Initiation Pro
 **Source**: [rfc-editor.org/rfc/rfc5194.txt](https://www.rfc-editor.org/rfc/rfc5194.txt)  
 **Mirrors**: [[TXT](/docs/rfc5194.txt)]
 
-## 2. XEP-0301: In-Band Real Time Text (2013)
+## 2. Real-time text over XMPP
+
+[_Extensible Messaging and Presence Protocol_ (XMPP)](https://xmpp.org), formerly _Jabber_, is an open XML-based standard for communication. It defines a number of [_XMPP Extension Protocols_ (XEPs)](https://xmpp.org/extensions).
+
+One notable extension protocol is XEP-0301, which specifies how real-time text can be implemented in an XMPP system. XEP-0301 builds on and synergizes with many other XEPs such that XMPP can be used to, for instance, construct a multi-user real-time text system with presence indicators, rich text, attachments, and so on.
+
+### 2.1. XEP-0301: In-Band Real Time Text (2013)
 
 XEP-0301 defines an in-band Real-Time Text protocol for XMPP. Unlike the T.140 family’s keystroke-streaming model, it uses a diff-based approach: updates are sent as XML action elements inside `<message/>` stanzas – `<t/>` for insertions at a position, `<e/>` for erasures, and `<w/>` for timing waits to preserve natural typing rhythm. Updates are typically sent every ~700 ms. A periodic `<rtt event='reset'/>` retransmits the full current state for synchronization. This design is more bandwidth-efficient, supports complex mid-message edits, and reduces the impact of packet loss compared to pure keystroke transmission.
 

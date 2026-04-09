@@ -4,7 +4,7 @@ title: A survey of real-time text systems
 
 # A survey of real-time text systems
 
-Real-time text systems date back to the early 1970s at the latest, possibly having been implemented in some capacity in the 1960s. Most real-time text systems have been discontinued or abandoned by their owners, leaving very few such systems alive today. Both ICQ and AIM, two extremely popular late messaging platforms, offered real-time text capabilities during the 1990s and late 2000s respectively but it never caught on.
+Real-time text (RTT) systems date back to the early 1970s at the latest, possibly having been implemented in some capacity in the 1960s. Most real-time text systems have been discontinued or abandoned by their owners, leaving very few such systems alive today. Both ICQ and AIM, two extremely popular late messaging platforms, offered real-time text capabilities during the 1990s and late 2000s respectively but it never caught on.
 
 _WM: Archived via the Internet Archive Wayback Machine_
 
