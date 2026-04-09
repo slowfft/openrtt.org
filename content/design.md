@@ -6,8 +6,6 @@ title: Designing a real-time text system
 
 This page covers the design of real-time text (RTT) systems – systems where a sender's keystrokes are transmitted to recipients as they are typed. RTT is distinct from collaborative document editing (which uses techniques like operational transformation and CRDTs to reconcile concurrent edits): in RTT, only one party authors a message at a time, so no conflict resolution is needed.
 
-_WM: Archived via the Internet Archive Wayback Machine_
-
 ## Table of Contents
 
 {{% toc %}}
